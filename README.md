@@ -90,6 +90,11 @@ MA5683T(diagnose)%%display ont-load result
 ```
 MA5683T(config-if-gpon-0/0)#ont reset PORT-ID ONT-ID
 ```
+# Videos
+- https://youtu.be/EW3zzOxMU90
+- https://youtu.be/smK1_ht0xys
+- https://youtu.be/AbHTeRLZMJE
+- https://youtu.be/m2sRpT6_xXA
 # Referencias
 
 - https://forum.huawei.com/enterprise/es/%C2%BFC%C3%B3mo-se-carga-un-archivo-de-actualizaci%C3%B3n-de-ONT/thread/667241296923869184-667212890693840896
