@@ -1,4 +1,4 @@
-# Configuracion de Auto-Load OLT HW MA5800
+# Configuracion de Auto-Load OLT HW MA5600T / MA5683T / MA5800-X15
 
 ## Indice
 - [Configuracion de servidor FTP o TFTP](#id1)
@@ -12,6 +12,7 @@
 - [Cargue automáticamente el archivo de versión ONT](#id4)
     - [Configure la política de carga automática de ONT](#id4.1)
     - [Comprueba el progreso de la carga](#id4.2)
+- [Referencias](#id5)
 ---
 
 ## Configuracion de servidor FTP o TFTP<a name="id1"></a>
@@ -89,3 +90,7 @@ MA5683T(diagnose)%%display ont-load result
 ```
 MA5683T(config-if-gpon-0/0)#ont reset PORT-ID ONT-ID
 ```
+# Referencias
+
+- https://forum.huawei.com/enterprise/es/%C2%BFC%C3%B3mo-se-carga-un-archivo-de-actualizaci%C3%B3n-de-ONT/thread/667241296923869184-667212890693840896
+- https://halny.com/knowledge-base/ont-halny-upgrade-on-huawei-ma5600t-ma5683t-ma5800-x15/
